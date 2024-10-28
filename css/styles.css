@@ -153,9 +153,12 @@ span {
     color: #404BBF;
 }
 
-.address {
-    color: #434455;
+address {
     font-style: normal;
+}
+
+.address .link {
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
