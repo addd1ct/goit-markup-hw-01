@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -57,12 +57,13 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-weight: 500;
 }
 
 .team-title {
     color: #2E2F42;
     background-color: #F4F4FD;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 732;
     font-size: 36px;
     line-height: 1.11;
@@ -91,7 +92,7 @@ a {
 
 .portfolio-title {
     color: #2E2F42;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
