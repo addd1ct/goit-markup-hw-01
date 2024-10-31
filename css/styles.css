@@ -312,7 +312,7 @@ address {
 }
 
 .peculiarities-main-title {
-    visibility: hidden;
+    overflow: hidden;
 }
 
 .peculiarities-li {
