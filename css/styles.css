@@ -174,11 +174,24 @@ a {
 
 }
 
-.page-header .container .nav .menu .link {
+.page-header .menu .link {
     padding: 24px 0;
 }
 
 .page-header .container .address-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.page-header .container {
+    margin: 0 auto;
+}
+
+.page-header .menu {
     display: flex;
     gap: 40px;
 }
@@ -282,6 +295,9 @@ address {
     display: flex;
     flex-direction: row;
     gap: 24px;
+}
+
+.third-section {
     padding: 120px 0;
 }
 
@@ -289,8 +305,10 @@ address {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 120px 0;
+}
 
+.second-section {
+    padding: 120px 0;
 }
 
 .peculiarities-main-title {
@@ -313,4 +331,8 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
     row-gap: 48px;
+}
+
+.fourth-section {
+    padding: 120px 0;
 }
