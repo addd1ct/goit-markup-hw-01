@@ -1,3 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -25,11 +41,7 @@ a {
     font-style: normal;
 }
 
-.first-section {
-    background-color: #2E2F42;
-}
-
-.first-section .main-title {
+.main-title {
     color: #FFFFFF;
     text-align: center;
     font-weight: bold;
@@ -37,18 +49,18 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    background-color: #2E2F42;
 }
 
 
-.first-section .button:focus {
+.button:focus {
+    background-color: #404BBF;
+}
+.button:hover{
     background-color: #404BBF;
 }
 
-.first-section .button:hover{
-    background-color: #404BBF;
-}
-
-.first-section .button {
+.button {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -180,4 +192,49 @@ address {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.page-header .container .nav {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.page-header .container .address-ul {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.fourth-section .container .card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 48;
+}
+
+.third-section .container .team-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.second-section .container .peculiarities-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
