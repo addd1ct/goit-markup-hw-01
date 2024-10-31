@@ -273,12 +273,17 @@ address {
 .page-header .container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .page-header .container .nav {
     display: flex;
     align-items: center;
+}
+
+.page-header .menu .link {
+    padding: 24px 0;
+
 }
 
 .card {
@@ -312,6 +317,15 @@ address {
 }
 
 .peculiarities-main-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
